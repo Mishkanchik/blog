@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quattrocento', serif;
+}
+
+.container{
+ 
+    width: 1170px;
+    margin: 0 auto;
+
+}
+
+
+
+
+
+.header{
+
+    background-color: #1d2126;
+    padding: 17px 0px;
+
+}
+.logo{
+    
+    
+    line-height: 40px;
+    color: white;
+    font-size: 24px;
+}
+.span-logo{
+    border-bottom: 1px solid white;
+    vertical-align: text-bottom;
+    color: white;
+    font-size: 21px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+
+}
+.col-3{
+ 
+    width: 25%;
+}
+
+
+
+.col-6{
+
+    width: 60%;
+}
+.col-2{
+    width: 25%;
+}
+
+    /* Menu */
+.menu a {
+    text-decoration: none;   
+    text-transform: uppercase;
+    
+}
+
+.menu{
+    
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    margin-top: 7px;
+}
+.menu-li {
+
+    display: block;
+    border-radius: 5px; 
+    padding: 7px 8px 7px 8px;
+    color: #a4aead;
+    margin-right: 15px;
+    border:2px solid #1d2126 ;
+}
+.menu-li:hover{
+    
+    border: 2px solid #5b6168;
+}
+
+.menu-logo:hover{
+    background-color: #23b7a4;
+    color: #a4aead;
+}
+.menu-logo {
+    cursor: pointer;
+    color:#23b7a4 ;
+    border-radius: 5px; 
+    border: 2px solid #23b7a4;
+    padding: 7px 10px 7px 10px;
+    margin-right: 17px;
+}
+
+
+    /* Search */
+
+
+.search-position{
+    display: flex;
+    position: relative;
+   
+    margin-top: 7px;
+    margin-left: 57px;
+    border: 2px solid #5b6168;
+    border-radius: 5px;
+    width: 195px;
+    height: 34px;
+    line-height: 40px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.search{
+ 
+    position: absolute;
+    width: 145px;
+    height: 30px;
+    padding-left: 10px;
+    color: #a4aead;
+    border: none;
+    background-color: #1d2126;
+    font-size: 14px;
+  
+    text-transform: uppercase;
+
+
+
+}
+
+
+
+
+
+.submit {
+    margin-left:150px ;
+    position: absolute;
+    background-color: #1d2126;
+    background-image: url(image/search.png);
+    background-position: center;
+    bottom: 1px;
+    cursor: pointer;
+    width: 30px;
+    height: 28px;
+    padding: 8px 8px 6px 8px ;
+    border: none;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .header{
+    background-color: #1d2126;
+
+}
+.container{
+    
+    width: 1170px;
+    margin: 0 auto;
+   
+    height: 80px;   
+   
+}
+.row{
+    display: flex;
+    width: 100%;
+}
+
+.logo{
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #ffe5e5;
+    font-size: 21px;
+    width: 25%;
+    
+}
+.span-logo{
+    vertical-align:text-top;
+    border-bottom: 1px solid ;
+    font-size: 17px;
+    line-height: normal;
+}
+
+
+.menu{
+    position:relative;
+    display: flex;
+    width: 50%;
+}
+.menu-logo h1{
+    color: #23b7a4;
+    border: 2px solid #23b7a4;
+}
+.menu-basic{
+    display: flex;
+} */
+
