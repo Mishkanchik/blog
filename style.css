@@ -6,6 +6,8 @@ body{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Quattrocento', serif;
+    width: 1920px;
+    display: block;
 }
 
 .container{
@@ -152,29 +154,44 @@ body{
 }
 
 
+@media (max-width:768px){
 
+body{
+    width: 768px;
+}
 
+.row{
+    display: flex;
+    font-size: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.search-position{
 
+    display: none;
+}
+.col-3{
+    width: 100%;
+}
+.col-6{
+    width: 100%;
+}
+.logo{
+  
+    text-align: center;
+}
+.container{
+    width: 100%;
+}
+.menu{
+    
+    padding-left: 30px;
+    overflow-x: scroll;
+    width: 40px;
+    width: 768px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
