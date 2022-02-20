@@ -3,7 +3,7 @@
 }
 
 body{
-    margin: 0;
+    margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Quattrocento', serif;
     width: 1920px;
@@ -158,7 +158,7 @@ body{
 @media (max-width:768px)    {
 
 body{
-    width: 768px;
+   max-width: 768px;
 }
 
 .row{
@@ -205,7 +205,7 @@ body{
 
 @media (max-width:375px){
     body{
-        width: 377px;
+        max-width: 377px;
     }
 
     .menu{
@@ -220,7 +220,22 @@ body{
     }
 }
 
+@media (max-width:280px){
+    body{
+        width: 280px;
+    }
 
+    .menu{
+    
+       
+        width: 280px;
+    }
+    .row{
+    
+        font-size: 15px;
+      
+    }
+}
 
 
 
