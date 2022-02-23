@@ -196,49 +196,72 @@ body{
 }
 
 }
-
-
-
-
-
-
-
-@media (max-width:375px){
-    body{
-        max-width: 377px;
-    }
-
-    .menu{
-    
-       
-        width: 375px;
-    }
-    .row{
-    
-        font-size: 15px;
-      
-    }
-}
-
-@media (max-width:280px){
-    body{
-        width: 280px;
-    }
-
-    .menu{
-    
-       
-        width: 280px;
-    }
-    .row{
-    
-        font-size: 15px;
-      
-    }
+.col-xs-12{
+    flex: 0 0 100%;
+    max-width: 100%;
 }
 
 
 
+
+
+
+/* teblet */
+@media(min-width:768px){
+    .container{
+
+        max-width: 720px;
+    }
+    .col-sm-2{
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
+
+    }
+    .col-sm-10{
+        flex: 0 0 83.33333%;
+        max-width: 83.33333%;
+    }
+  
+
+}
+/* laptop */
+@media(min-width:992px){
+    .container{
+
+        max-width: 960px;
+    }
+    .col-md-2{
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
+    }
+    .col-md-8{
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;
+    }
+}
+
+
+
+/* desktop */
+@media(min-width:1200px){
+    .container{
+
+        max-width: 1170px;
+    }
+
+
+}
+
+/* only mobile */
+
+@media(max-width:767px){
+    .container{
+
+        max-width: 766px;
+    }
+
+
+}
 /* .header{
     background-color: #1d2126;
 
